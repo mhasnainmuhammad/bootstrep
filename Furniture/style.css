@@ -1,0 +1,32 @@
+.img-div {
+    height: 100vh;
+}
+.img1 {
+    height: 100%;
+    width: 50;
+    background-image: url("https://images.pexels.com/photos/8583811/pexels-photo-8583811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .8;
+}
+.img1:hover {
+    transition: .4s linear;
+    opacity: 1;
+}
+
+
+.imgsDiv {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.imgsDiv img {
+    width: 48%;
+}
+.imgsDiv img:hover {
+    transition: .4s linear;
+    transform: scale(1.02);
+}
